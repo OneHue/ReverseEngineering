@@ -1,14 +1,16 @@
 {
-	"required": true,
-	"package": "net.polished.mixin",
-	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-      "CraftingResultSlotMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
-	},
-	"overwrites": {
-		"requireAnnotations": true
+  "required": true,
+  "package": "net.polished.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ScreenHandlerAccessor",
+    "AbstractCraftingScreenHandlerMixin",
+    "CraftingResultSlotMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
 	}
 }
