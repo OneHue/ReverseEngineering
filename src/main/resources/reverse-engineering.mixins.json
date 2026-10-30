@@ -3,7 +3,7 @@
 	"package": "net.polished.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+      "CraftingResultSlotMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
